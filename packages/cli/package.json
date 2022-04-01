@@ -1,6 +1,6 @@
 {
   "name": "jarbook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,8 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jarbook/local-api": "^1.0.0",
-    "@jarbook/local-client": "^1.0.0"
+    "@jarbook/local-api": "^1.0.1",
+    "@jarbook/local-client": "^1.0.1"
   },
   "devDependencies": {
     "@jarbook/local-api": "^1.0.0",
