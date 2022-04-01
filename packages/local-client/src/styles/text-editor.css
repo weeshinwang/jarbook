@@ -1,0 +1,48 @@
+.text-editor .w-md-editor-bar {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+  height: 12px;
+  cursor: row-resize;
+  background-color: #37414b;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.text-editor .number {
+  align-items: inherit;
+  background-color: inherit;
+  border-radius: inherit;
+  display: inherit;
+  font-size: inherit;
+  height: inherit;
+  justify-content: inherit;
+  margin-right: inherit;
+  min-width: inherit;
+  padding: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+}
+
+.text-editor ul {
+  list-style: inherit;
+}
+
+.text-editor .tag:not(body) {
+  align-items: inherit;
+  background-color: inherit;
+  border-radius: inherit;
+  color: inherit;
+  display: inherit;
+  font-size: inherit;
+  height: inherit;
+  justify-content: inherit;
+  line-height: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  white-space: inherit;
+}
+
+.text-editor .w-md-editor-toolbar ul {
+  z-index: 100;
+}
