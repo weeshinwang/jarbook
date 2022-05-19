@@ -32,6 +32,9 @@
   content: 'BUNDLING ERROR!: ';
 }
 
-iframe {
+/*
+To do this will prevent any mouse event, which is not optimized.
+*/
+/* iframe {
   pointer-events: none;
-}
+} */
