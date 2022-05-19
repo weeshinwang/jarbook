@@ -26,7 +26,7 @@ const html = `
 
     window.addEventListener('message', (event) => {
       try {
-        eval(event.data);
+        (new Function(event.data))();
       } catch (err) {
         handleError(err);
       }
