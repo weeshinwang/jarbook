@@ -10,8 +10,8 @@
 .action-bar {
   position: absolute;
   top: 0;
-  right: 0;
-  opacity: 0;
+  right: calc(50vw - 110px);
+  opacity: 0.5;
   transition: opacity 0.1s;
 }
 

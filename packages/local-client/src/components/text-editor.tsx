@@ -10,6 +10,7 @@ interface TextEditorProps {
 
 const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
   const ref = useRef<HTMLDivElement | null>(null);
+
   const [editing, setEditing] = useState(false);
   const { updateCell } = useActions();
 
@@ -26,6 +27,7 @@ const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
       }
     };
 
+    // TODO: SHOULD BE DOUBLE CLICK
     document.addEventListener('click', listener, { capture: true });
 
     return () => {
@@ -48,7 +50,7 @@ const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
   return (
     <div className='text-editor card' onClick={() => setEditing(true)}>
       <div className='card-content'>
-        <MDEditor.Markdown source={cell.content || 'Click to edit'} />
+        <MDEditor.Markdown source={cell.content || '单击开始编辑'} />
       </div>
     </div>
   );

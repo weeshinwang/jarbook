@@ -1,6 +1,7 @@
 .cell-list-item {
   position: relative;
-  margin: 40px 10px;
+  margin: 40px 40px;
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .action-bar-wrapper {

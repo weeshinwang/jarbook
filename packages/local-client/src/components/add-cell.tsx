@@ -19,14 +19,14 @@ const AddCell: React.FC<AddCellProps> = ({ previousCellId, forceVisible }) => {
           onClick={() => insertCellAfter(previousCellId, 'code')}
         >
           <FontAwesomeIcon icon={faPlus} />
-          Code
+          添加代码
         </button>
         <button
           className='button is-link is-small is-rounded'
           onClick={() => insertCellAfter(previousCellId, 'text')}
         >
           <FontAwesomeIcon icon={faPlus} />
-          Text
+          添加文本
         </button>
       </div>
       <div className='add-cell-divider'></div>

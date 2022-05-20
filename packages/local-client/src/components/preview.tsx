@@ -6,7 +6,7 @@ interface PreviewProps {
   errorStatus: string;
 }
 
-const html = `
+const html = /*html*/ `
 <html>
 <head>
   <style>html {font-family: 'Jetbrains Mono', monospace}</style>
