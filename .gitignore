@@ -82,4 +82,5 @@ dist/
 .idea/
 .vscode/
 cloudbaserc.json
+TCBSAM.yaml
 

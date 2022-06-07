@@ -27,7 +27,6 @@ const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
       }
     };
 
-    // TODO: SHOULD BE DOUBLE CLICK
     document.addEventListener('click', listener, { capture: true });
 
     return () => {
@@ -48,9 +47,11 @@ const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
   }
 
   return (
-    <div className='text-editor card' onClick={() => setEditing(true)}>
+    <div className='text-editor card' onDoubleClick={() => setEditing(true)}>
       <div className='card-content'>
-        <MDEditor.Markdown source={cell.content || '单击开始编辑'} />
+        <MDEditor.Markdown
+          source={cell.content || '双击开始编辑，单击编辑框外预览'}
+        />
       </div>
     </div>
   );
