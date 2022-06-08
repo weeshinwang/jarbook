@@ -9,7 +9,7 @@ interface PreviewProps {
 const html = /*html*/ `
 <html>
 <head>
-  <style>html {font-family: 'Jetbrains Mono', monospace}</style>
+  <style>html {font-family: system-ui, —apple-system, Roboto, Segoe UI, Helvetica, Arial, sans-serif}</style>
 </head>
 <body>
   <div id="root"></div>
